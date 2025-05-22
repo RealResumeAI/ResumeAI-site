@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+}
+
+header.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #ff6a00;
+  color: white;
+}
+
+.hero .cta,
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.price-box {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #f9f9f9;
+}
+
+.price-box.premium {
+  border-color: #ff6a00;
+  background: #fff7f0;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+.testimonials blockquote {
+  background: #eee;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 5px solid #ff6a00;
+}
+
+details {
+  margin: 1rem 0;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-section {
+  padding: 2rem 1rem;
+  background: #f0f0f0;
+}
+
+input, label, button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #ff6a00;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+  font-size: 0.9rem;
+}
